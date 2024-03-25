@@ -1,0 +1,11 @@
+<div class="movie-card">
+<div class="d-flex justify-content-between align-items-center">
+    <h5 class="movie-card-title">{{ movie?.title }}</h5>
+    <button (click)="navigateToDetails(movie?.id)">Details</button>
+  </div>
+  <div class="text-start">
+    <p>Duration: {{ movie?.duration | duration }}
+    <br>Budget: {{ movie?.budget | budget  }}
+    <br>Release Date: {{ movie?.release_date }}</p>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+img{
+  height: 100%;
+}
+.container {
+  max-width: 150vh;
+  /* max-width: 1000px; */
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 20%;
+}
+
+.image-container .col-6 {
+  flex: 1;
+  min-width: 0;
+}
+
+.image-container img {
+  width: 70%;
+  height: auto;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+/* Optional: Add your custom styling for font, colors, etc. */
+h2, h3, th, td, p {
+  color: #333; /* Adjust the color as needed */
+}
